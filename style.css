@@ -1,0 +1,140 @@
+body {
+  background-color: #8a2be2;
+  font-family: 'Kiwi Maru', serif;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+	font-size: 35px;
+	color: #000;
+}
+
+p {
+	font-size: 24px;
+	line-height: 0.5em;
+}
+
+a {
+  text-decoration: inherit;
+  color: #f5f5f5;
+}
+a:hover {
+  color: #000;
+}
+
+
+i {
+  color: #000;
+  font-size: 40px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: #f5f5f5;
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 25px 0px;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.img-circle {
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.small-shadow {
+  box-shadow: 2px 6px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.btn-blue {
+  background-color: #000;
+  padding: 15px 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: #f5f5f5;
+  border: 3px solid #000;
+  font-weight: 900;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  img {
+    width: 400px;
+    margin: 0 auto;
+  }
+  p {
+    font-size: 24px;
+    line-height: 0.5em;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+      width: 500px;
+  }
+  img {
+    width: 400px;
+    margin: 0 auto;
+  }
+  p {
+    font-size: 24px;
+    line-height: 0.5em;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  img {
+    width: 200px;
+    margin: 0 auto;
+  }
+  p {
+    font-size: 24px;
+    line-height: 1.2em;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 1.2em;
+  }
+}
